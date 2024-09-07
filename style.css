@@ -1,0 +1,155 @@
+/*paleta de cores https://coolors.co/palette/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a */
+
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Bungee", sans-serif; /* Define a fonte padrão */
+    background-color: #fdd6dd; /* Cor de fundo da página */
+    background-image: url('https://media.discordapp.net/attachments/1272219724532420743/1280667783600013313/Design_sem_nome.jpg?ex=66d8ea51&is=66d798d1&hm=4e3305e16723e5e5ab242e196bed7c48aee9844cb4861c046ba3054bc17d437f&=&format=webp&width=1193&height=671');
+  background-size: cover;
+  background-attachment: fixed; /* Faz com que a imagem permaneça fixa enquanto o usuário rola a página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #f7d476; /* Cor do texto */
+    text-shadow: 1px 1px 4px #35280dc0;
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 20rem; /* Largura dos inputs */
+    border: 3px solid #ac4c64; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    margin-bottom: 0.6rem; /* Espaçamento abaixo dos inputs */
+    color: #000000; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.6rem 1rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #ac4c64; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+}
+
+/* Estiliza cada caixa de item de resultado */
+.item-resultado {
+    background: #fde091; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1.3rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado a {
+    /* Estilos padrão para todos os links */
+    text-decoration: none;
+   
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titulo-link {
+    text-decoration: none;
+    font-family:"Bungee", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #ac4c64; /* Cor do texto */
+    margin-bottom: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.titulo-link:hover { /*titulo com nome das meninas*/
+    text-decoration: none;
+}
+
+.mais-info-link {
+    color: #ca7d90; 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.instagram-link {
+    color: #ca7d90; /* Cor do Instagram */
+    text-decoration: underline;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #ac4c64; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+    
+.albuns-eps {
+    color: #8d394e; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #b18d94; /* Cor de fundo do rodapé */
+    color: #f7d476; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 1rem; /* Tamanho da fonte */
+    line-height: 0.5; /* Valor menor aproxima as linhas */
+}
